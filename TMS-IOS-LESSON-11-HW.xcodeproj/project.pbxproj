@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044C94522B36B65400A9C456 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C94512B36B65400A9C456 /* Calculator.swift */; };
+		04AFE8FF2B360F4700D05B9C /* UIConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFE8FE2B360F4700D05B9C /* UIConstructor.swift */; };
 		04FC59652B360C8800543A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC59642B360C8800543A0F /* AppDelegate.swift */; };
 		04FC59672B360C8800543A0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC59662B360C8800543A0F /* SceneDelegate.swift */; };
 		04FC59692B360C8800543A0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC59682B360C8800543A0F /* ViewController.swift */; };
-		04FC596C2B360C8800543A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC596A2B360C8800543A0F /* Main.storyboard */; };
 		04FC596E2B360C8A00543A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FC596D2B360C8A00543A0F /* Assets.xcassets */; };
 		04FC59712B360C8A00543A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC596F2B360C8A00543A0F /* LaunchScreen.storyboard */; };
 		68307BFFF271371232F373BB /* Pods_TMS_IOS_LESSON_11_HW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B379A5EE1229AB7C0B751346 /* Pods_TMS_IOS_LESSON_11_HW.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044C94512B36B65400A9C456 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		04AFE8FE2B360F4700D05B9C /* UIConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstructor.swift; sourceTree = "<group>"; };
 		04FC59612B360C8800543A0F /* TMS-IOS-LESSON-11-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMS-IOS-LESSON-11-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC59642B360C8800543A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FC59662B360C8800543A0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04FC59682B360C8800543A0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04FC596B2B360C8800543A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FC596D2B360C8A00543A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FC59702B360C8A00543A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FC59722B360C8A00543A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +44,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044C94502B36B62F00A9C456 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				044C94512B36B65400A9C456 /* Calculator.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		04AFE8FD2B360F3400D05B9C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04AFE8FE2B360F4700D05B9C /* UIConstructor.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		04FC59582B360C8800543A0F = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +81,11 @@
 		04FC59632B360C8800543A0F /* TMS-IOS-LESSON-11-HW */ = {
 			isa = PBXGroup;
 			children = (
+				044C94502B36B62F00A9C456 /* Classes */,
+				04AFE8FD2B360F3400D05B9C /* Utils */,
 				04FC59642B360C8800543A0F /* AppDelegate.swift */,
 				04FC59662B360C8800543A0F /* SceneDelegate.swift */,
 				04FC59682B360C8800543A0F /* ViewController.swift */,
-				04FC596A2B360C8800543A0F /* Main.storyboard */,
 				04FC596D2B360C8A00543A0F /* Assets.xcassets */,
 				04FC596F2B360C8A00543A0F /* LaunchScreen.storyboard */,
 				04FC59722B360C8A00543A0F /* Info.plist */,
@@ -153,7 +172,6 @@
 			files = (
 				04FC59712B360C8A00543A0F /* LaunchScreen.storyboard in Resources */,
 				04FC596E2B360C8A00543A0F /* Assets.xcassets in Resources */,
-				04FC596C2B360C8800543A0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +226,8 @@
 			files = (
 				04FC59692B360C8800543A0F /* ViewController.swift in Sources */,
 				04FC59652B360C8800543A0F /* AppDelegate.swift in Sources */,
+				04AFE8FF2B360F4700D05B9C /* UIConstructor.swift in Sources */,
+				044C94522B36B65400A9C456 /* Calculator.swift in Sources */,
 				04FC59672B360C8800543A0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,14 +235,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04FC596A2B360C8800543A0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04FC596B2B360C8800543A0F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04FC596F2B360C8A00543A0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,9 +378,9 @@
 				INFOPLIST_FILE = "TMS-IOS-LESSON-11-HW/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,9 +388,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "anton.kurdo.TMS-IOS-LESSON-11-HW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -395,9 +410,9 @@
 				INFOPLIST_FILE = "TMS-IOS-LESSON-11-HW/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,9 +420,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "anton.kurdo.TMS-IOS-LESSON-11-HW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
